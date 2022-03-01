@@ -1,9 +1,23 @@
 *{
     box-sizing: border-box;
     outline: solid black 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 
 }
-
+:root{
+    --color1:#fdf2f8;
+    --color2:#fce7f3;
+    --color3:#fbcfe8;
+    --color4:#f9a8d4;
+    --color5:#f472b6;
+    --color6:#ec4899;
+    --color7:#db2777;
+    --color8:#be185d;
+    --color9:#9d174d;
+    --color10:#831843;
+    
+}
 body {
     height: 100%;
     overflow-y: hidden;
@@ -17,7 +31,41 @@ body {
 #aside{
     width: 15%;
     height: 100%;
+    display: grid;
+    grid-template-rows: 10% 40% 30%;
+    background-color: var(--color8);
+    color: rgb(34, 34, 34);
+
+    
 }
+.asidecontent{
+    width: 100%;
+    display: grid;
+    padding: 10px;
+
+}
+#dashboard{
+    height: 50px;
+    margin-left: 15px;
+}
+#asideheader{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+
+}
+.sideicons{
+    font-size: 1.3rem;
+
+}
+.icons{
+align-items: center;
+}
+
+
+
+
+
 #mainpage{
     display: flex;
     flex-direction: column;
@@ -33,6 +81,7 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
+    background-color: var(--color1)
 }
 #projects{
     display: grid;
