@@ -2,20 +2,19 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    outline: solid black 1px;
 
 }
 :root{
-    --color1:#fdf2f8;
-    --color2:#fce7f3;
-    --color3:#fbcfe8;
-    --color4:#f9a8d4;
-    --color5:#f472b6;
-    --color6:#ec4899;
-    --color7:#db2777;
-    --color8:#be185d;
-    --color9:#9d174d;
-    --color10:#831843;
+    --color1:#f0fdf4;
+    --color2:#dcfce7;
+    --color3:#bbf7d0;
+    --color4:#86efac;
+    --color5:#4ade80;
+    --color6:#22c55e;
+    --color7:#16a34a;
+    --color8:#15803d;
+    --color9:#166534;
+    --color10:#14532d;
     
 }
 body {
@@ -33,8 +32,8 @@ body {
     height: 100%;
     display: grid;
     grid-template-rows: 10% 40% 30%;
-    background-color: var(--color8);
-    color: rgb(34, 34, 34);
+    background-color: var(--color9);
+    color: rgb(195, 240, 195);
 
     
 }
@@ -42,24 +41,32 @@ body {
     width: 100%;
     display: grid;
     padding: 10px;
-
+    row-gap: 0px;
+    grid-template-rows: repeat(auto-fill,50px);
 }
 #dashboard{
     height: 50px;
     margin-left: 15px;
+    
 }
 #asideheader{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 2fr;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
 
 }
 .sideicons{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    display: flex;
 
 }
-.icons{
-align-items: center;
+.icontext {
+    margin-top: 18px;
+    margin-left: 5px;
+
 }
 
 
@@ -73,12 +80,16 @@ align-items: center;
     width: 100%;
     height: 20%;
     flex-direction: column;
-
+    background-color: rgb(204, 50, 50);
+    margin-bottom: 5px;
+    box-shadow: 0px 14px 20px 0px rgba(0,0,0,0.75);
 }
 #header-up{
     display: flex;
     height: 40%;
     width: 100%;
+    
+
 }
 #searchbar{
     width: 70%;
@@ -95,6 +106,7 @@ input{
     border-radius: 25px;
     border: solid black 1px;
     outline: none;
+    background-color: var(--color3)
 }
 #profileicons{
     display: flex;
@@ -109,18 +121,18 @@ input{
     margin-left: -50px;
     margin-right: -50px;
 }
-#username{
-background-color: rgb(168, 31, 31);
-}
+
 #header-down{
     display: flex;
     height: 100%;
+
 }
 #welcome{
     display: flex;
     width: 65%;
     height: 100%;
     align-items: center;
+    
 }
 #small{
     font-size: 0.7rem;
@@ -131,21 +143,16 @@ background-color: rgb(168, 31, 31);
     height: 100%;
     align-items: center;
     width: 15%;
-    justify-content: ce;
     
     
 }
-#actions{
-    display: flex;
-    width: 35%;
-    align-items: center;
-    justify-content: space-around;
+#greetings{
+    font-size: 1.5rem;
 }
-
-
 
 img{
     height: 30px;
+    align-self: center;
 }
 #profileimage{
     height: 80px;
@@ -157,14 +164,28 @@ img{
 #userimage{
     justify-content: center;
 }
+#actions{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-around;
+}
 
+button{
+    border-radius: 25px;
+    height: 40px;
+    width: 90px;
+    background-color: var(--color6);
+    outline: none;
+    border: none;
+}
 
 
 #main{
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: var(--color1)
+    background-color: var(--color3)
 }
 #projects{
     display: grid;
