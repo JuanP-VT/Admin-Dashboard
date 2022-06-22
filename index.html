@@ -1,200 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-        </style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+    </style>
     <title>Admin Dashboard</title>
-</head>
-<body>
-    <div id="mainbox"> 
-        <div id="aside"> 
-            <div id="asideheader">
-                <div class="icons"><img src="./icons/dashboard.png" alt="Dashboard-icon" id="dashboard"> </div>
-                <div class="sideicons big"> Dashboards </div>
-            </div>
-            <div class="asidecontent">
-                <div class="sideicons"><img src="./icons/home.png" alt="Home-icon" class="icon"><span class="icontext">Home</span></div>
-                <div class="sideicons"><img src="./icons/face-man-profile.png" alt="Profile-icon"> <span class="icontext">Profile</span></div>
-                <div class="sideicons"><img src="./icons/message.png" alt="Message-icon"> <span class="icontext">Message</span></div>
-                <div class="sideicons"><img src="./icons/history.png" alt="history-icon"> <span class="icontext">History</span></div>
-                <div class="sideicons"><img src="./icons/task.png" alt="tasks-icons"> <span class="icontext">Tasks</span></div>
-                <div class="sideicons"><img src="./icons/account-group.png" alt="communities-icon"> <span class="icontext">Communities</span></div>
-            </div>
-            <div class="asidecontent">
-                <div class="sideicons"><img src="./icons/cog.png" alt="Settings-icon"> <span class="icontext">Settings</span></div>
-                <div class="sideicons"><img src="./icons/support.png" alt=""> <span class="icontext">Support</span></div>
-                <div class="sideicons"><img src="./icons/lock-alert.png" alt="privacy-icon"> <span class="icontext">Privacy</span></div>
-
-            </div>
+  </head>
+  <body>
+    <div id="mainbox">
+      <div id="aside">
+        <div id="asideheader">
+          <div class="icons">
+            <img
+              src="./icons/dashboard.png"
+              alt="Dashboard-icon"
+              id="dashboard"
+            />
+          </div>
+          <div class="sideicons big">Dashboards</div>
         </div>
-        <div id="mainpage"> 
-            <div id="mainpage-header"> 
-                <div id="header-up"> 
-                    <div id="searchbar"> <img src="./icons/magnify.png" alt="search-igcon"> <input type="text"> </div>
-                    <div id="profileicons"> 
-                        <img src="./icons/bell.png" alt="bell-icon" id="bellicon">
-                        <img src="./icons/profileimg.jpg" alt="profile-image" id="profileimagesmall">
-                        <div id="username"> Juan Pablo</div>
-                    </div>
-                </div>
-                
-                <div id="header-down"> 
-                    <div id="welcome"> 
-                        <div id="userimage"><img src="./icons/profileimg.jpg" alt="" id="profileimage"></div>
-                        <div id="greetings">
-                            <p id="small">Hi there,</p>
-                            Juan Pablo (@JuanP)
-                        </div>
-                    </div>
-                    <div id="actions"> 
-                        <button>News</button>
-                        <button>Update</button>
-                        <button>Share</button>
-                    </div>
-                </div>
-            </div>
-            <div id="main">
-                <div id="projects">
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-                    </div>
-                    <div class ="cardfooter"> 
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                </div >
-                </div>
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-
-                    </div>
-                    <div class ="cardfooter">
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                    </div >
-                </div>
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-
-                    </div>
-                    <div class ="cardfooter">
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                    </div >
-                </div>
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-
-                    </div>
-                    <div class ="cardfooter"> 
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                    </div >
-                </div>
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-
-                    </div>
-                    <div class ="cardfooter">
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                    </div >
-                </div>
-                <div class="cards">
-                    <div class="cardcontent">
-                        <p class="maintext"> Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas bibendum dolor a arcu auctor, a consequat sem imperdiet</p>
-
-                    </div>
-                    <div class ="cardfooter">
-                        <img src="./icons/eye-arrow-right-outline.png" alt="see-icon">
-                        <img src="./icons/star-outline.png " alt="favorite-icon">
-                        <img src="./icons/share-variant.png" alt="share-icon">
-                    </div>
-                    
-                </div>
-                
-            </div>
-                <div id="mainsidebar"> 
-                    <div id="announcements"> 
-                        <div class="title"> Announcements</div>
-                        <div id="news"> 
-                            <div class="newscard">
-                                <p class="newstitle"> Site maintenance</p>
-                                <p class="newscontent"> The site will be down for maintenance from 15:00 to 15:20. Thank you for your comprehension </p>
-                            </div>
-                            <div class="newscard">
-                                <p class="newstitle"> Community share day</p>
-                                <p class="newscontent"> Tomorrow we will be hosting a stream celebrating the community share day . Come join us! </p>
-                            </div>
-                            <div class="newscard">
-                                <p class="newstitle"> Update privacy policy</p>
-                                <p class="newscontent"> We have updated our privacy policy. Please take the time to read and fully understand this to keep using our amazing service</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div id="trending"> 
-                        <div class="title"> Trending</div>
-                        <div id="toptrendingbox"> 
-                            <div class="toptrending">
-                                <div class="trendingimg"> <img src="./icons/ad.png" alt="user-icon" class="trendingIMG"></div>
-                                <div class="trendinguser"> 
-                                    <p>@juanP</p>
-                                    <p class="trendingtitle"> World Peace Builder</p>
-                                </div>
-                            </div>
-                            <div class="toptrending">
-                                <div class="trendingimg"> <img src="./icons/ad.png" alt="user-icon" class="trendingIMG"></div>
-                                <div class="trendinguser"> 
-                                    <p>@juanP</p>
-                                    <p class="trendingtitle"> World Peace Builder</p>
-                                </div>
-
-                            </div>
-                            <div class="toptrending">
-                                <div class="trendingimg"> <img src="./icons/ad.png" alt="user-icon" class="trendingIMG"></div>
-                                <div class="trendinguser"> 
-                                    <p>@juanP</p>
-                                    <p class="trendingtitle"> World Peace Builder</p>
-                                </div>
-
-                            </div>
-                            <div class="toptrending">
-                                <div class="trendingimg"> <img src="./icons/ad.png" alt="user-icon" class="trendingIMG"></div>
-                                <div class="trendinguser"> 
-                                    <p>@juanP</p>
-                                    <p class="trendingtitle"> World Peace Builder</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+        <div class="asidecontent">
+          <div class="sideicons">
+            <img src="./icons/home.png" alt="Home-icon" class="icon" /><span
+              class="icontext"
+              >Home</span
+            >
+          </div>
+          <div class="sideicons">
+            <img src="./icons/face-man-profile.png" alt="Profile-icon" />
+            <span class="icontext">Profile</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/message.png" alt="Message-icon" />
+            <span class="icontext">Message</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/history.png" alt="history-icon" />
+            <span class="icontext">History</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/task.png" alt="tasks-icons" />
+            <span class="icontext">Tasks</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/account-group.png" alt="communities-icon" />
+            <span class="icontext">Communities</span>
+          </div>
         </div>
+        <div class="asidecontent">
+          <div class="sideicons">
+            <img src="./icons/cog.png" alt="Settings-icon" />
+            <span class="icontext">Settings</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/support.png" alt="" />
+            <span class="icontext">Support</span>
+          </div>
+          <div class="sideicons">
+            <img src="./icons/lock-alert.png" alt="privacy-icon" />
+            <span class="icontext">Privacy</span>
+          </div>
+        </div>
+      </div>
+      <div id="mainpage">
+        <div id="mainpage-header">
+          <div id="header-up">
+            <div id="searchbar">
+              <img src="./icons/magnify.png" alt="search-igcon" />
+              <input type="text" />
+            </div>
+            <div id="profileicons">
+              <img src="./icons/bell.png" alt="bell-icon" id="bellicon" />
+              <img
+                src="./icons/profileimg.jpg"
+                alt="profile-image"
+                id="profileimagesmall"
+              />
+              <div id="username">Juan Pablo</div>
+            </div>
+          </div>
+
+          <div id="header-down">
+            <div id="welcome">
+              <div id="userimage">
+                <img src="./icons/profileimg.jpg" alt="" id="profileimage" />
+              </div>
+              <div id="greetings">
+                <p id="small">Hi there,</p>
+                Juan Pablo (@JuanP)
+              </div>
+            </div>
+            <div id="actions">
+              <button>News</button>
+              <button>Update</button>
+              <button>Share</button>
+            </div>
+          </div>
+        </div>
+        <div id="main">
+          <div id="projects">
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 1</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 2</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 3</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 4</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 5</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="cardcontent">
+                <p class="maintext">Project 6</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  dui lectus, rutrum vel nulla in, rhoncus luctus eros. Maecenas
+                  bibendum dolor a arcu auctor, a consequat sem imperdiet
+                </p>
+              </div>
+              <div class="cardfooter">
+                <img src="./icons/eye-arrow-right-outline.png" alt="see-icon" />
+                <img src="./icons/star-outline.png " alt="favorite-icon" />
+                <img src="./icons/share-variant.png" alt="share-icon" />
+              </div>
+            </div>
+          </div>
+          <div id="mainsidebar">
+            <div id="announcements">
+              <div class="title">Announcements</div>
+              <div id="news">
+                <div class="newscard">
+                  <p class="newstitle">Site maintenance</p>
+                  <p class="newscontent">
+                    The site will be down for maintenance from 15:00 to 15:20.
+                    Thank you for your comprehension
+                  </p>
+                </div>
+                <div class="newscard">
+                  <p class="newstitle">Community share day</p>
+                  <p class="newscontent">
+                    Tomorrow we will be hosting a stream celebrating the
+                    community share day . Come join us!
+                  </p>
+                </div>
+                <div class="newscard">
+                  <p class="newstitle">Update privacy policy</p>
+                  <p class="newscontent">
+                    We have updated our privacy policy. Please take the time to
+                    read and fully understand this to keep using our amazing
+                    service
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="trending">
+              <div class="title">Trending</div>
+              <div id="toptrendingbox">
+                <div class="toptrending">
+                  <div class="trendingimg">
+                    <img
+                      src="./icons/ad.png"
+                      alt="user-icon"
+                      class="trendingIMG"
+                    />
+                  </div>
+                  <div class="trendinguser">
+                    <p>@juanP</p>
+                    <p class="trendingtitle">World Peace Builder</p>
+                  </div>
+                </div>
+                <div class="toptrending">
+                  <div class="trendingimg">
+                    <img
+                      src="./icons/ad.png"
+                      alt="user-icon"
+                      class="trendingIMG"
+                    />
+                  </div>
+                  <div class="trendinguser">
+                    <p>@juanP</p>
+                    <p class="trendingtitle">World Peace Builder</p>
+                  </div>
+                </div>
+                <div class="toptrending">
+                  <div class="trendingimg">
+                    <img
+                      src="./icons/ad.png"
+                      alt="user-icon"
+                      class="trendingIMG"
+                    />
+                  </div>
+                  <div class="trendinguser">
+                    <p>@juanP</p>
+                    <p class="trendingtitle">World Peace Builder</p>
+                  </div>
+                </div>
+                <div class="toptrending">
+                  <div class="trendingimg">
+                    <img
+                      src="./icons/ad.png"
+                      alt="user-icon"
+                      class="trendingIMG"
+                    />
+                  </div>
+                  <div class="trendinguser">
+                    <p>@juanP</p>
+                    <p class="trendingtitle">World Peace Builder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="rel">
-    </div>
-</body>
+    <div id="rel"></div>
+  </body>
 </html>
